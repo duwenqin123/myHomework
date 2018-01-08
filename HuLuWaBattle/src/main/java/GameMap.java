@@ -230,8 +230,6 @@ public class GameMap extends Application {
                     });
                     break;
                 case UP:
-                    /*changeFormation(10, 10, Orientation.LEFT,
-                            new YanXingFormation(), huLuWaList);*/
                     if(state==State.RUN || state==State.BEGIN) {
                         int rand = random.nextInt(formationNameList.size());
                         changeFormation(rand, huLuWaList, huLuWaFormation);
